@@ -95,14 +95,14 @@
 	"title": "Yêu cầu",
 	"tags": [],
 	"description": "",
-	"content": "Để sử dụng eksctl trong phần này, bạn cần phải tải xuống tiện ích eksctl:\ncurl --silent --location \u0026#34;https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz\u0026#34; | tar xz -C /tmp\rsudo mv -v /tmp/eksctl /usr/local/bin Xác nhận lệnh eksctl hoạt động:\neksctl version Enable eksctl bash-completion\nKích hoạt eksctl bash-completion "
+	"content": "Để sử dụng eksctl trong phần này, bạn cần phải tải xuống tiện ích eksctl:\ncurl --silent --location \u0026#34;https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz\u0026#34; | tar xz -C /tmp\rsudo mv -v /tmp/eksctl /usr/local/bin Xác nhận lệnh eksctl hoạt động:\neksctl version Enable eksctl bash-completion\neksctl completion bash \u0026gt;\u0026gt; ~/.bash_completion\r. /etc/profile.d/bash_completion.sh\r. ~/.bash_completion "
 },
 {
 	"uri": "/vi/4-beginner/",
 	"title": "Beginner",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "Trong phần này, chúng ta sẽ biết được các kiến thức cơ bản về các thành phần của một cluster Kubernetes, cách cấu hình và quản lý cluster, và cách triển khai và quản lý các ứng dụng trên Kubernetes. Đây là một cơ hội tuyệt vời để tạo nền tảng cho sự phát triển kỹ thuật của bạn trong lĩnh vực Kubernetes.\n"
 },
 {
 	"uri": "/vi/3-eksctl/launcheks/",

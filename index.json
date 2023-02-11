@@ -88,7 +88,7 @@
 	"title": "Prerequisites",
 	"tags": [],
 	"description": "",
-	"content": "For this module, we need to download the eksctl binary:\ncurl --silent --location \u0026#34;https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz\u0026#34; | tar xz -C /tmp\rsudo mv -v /tmp/eksctl /usr/local/bin Confirm the eksctl command works:\neksctl version Enable eksctl bash-completion\nEnable eksctl bash-completion "
+	"content": "For this module, we need to download the eksctl binary:\ncurl --silent --location \u0026#34;https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz\u0026#34; | tar xz -C /tmp\rsudo mv -v /tmp/eksctl /usr/local/bin Confirm the eksctl command works:\neksctl version Enable eksctl bash-completion\neksctl completion bash \u0026gt;\u0026gt; ~/.bash_completion\r. /etc/profile.d/bash_completion.sh\r. ~/.bash_completion "
 },
 {
 	"uri": "/1-introduce/kubernetes_basics/what_kubernetes/",
@@ -102,7 +102,7 @@
 	"title": "Beginner",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "In this section, we will learn the basics of a Kubernetes cluster, how to configure and manage the cluster, and how to deploy and manage applications on Kubernetes. We will cover topics such as:\nInstalling and configuring a Kubernetes cluster Understanding the key components of a Kubernetes cluster such as nodes, pods, and services Using kubectl to manage and deploy objects within the cluster Creating and managing applications on the cluster using YAML and manifests This is a great opportunity to build a strong foundation for your technical development in the Kubernetes field.\n"
 },
 {
 	"uri": "/2-prerequisites/iamrole/",
